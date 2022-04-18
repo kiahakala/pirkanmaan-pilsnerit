@@ -1,0 +1,22 @@
+.filter {
+  display: flex;
+  font-size: 2vw;
+  align-items: center;
+  padding-top: 4vw;
+  padding-left: 8vw;
+}
+
+input {
+  display: flex;
+  border: 0.2vw solid rgb(255, 208, 0);
+}
+
+input:focus {
+  outline: none !important;
+  border: 0.2vw solid rgb(187, 128, 0);
+}
+
+input[type="text"] {
+  padding: 0.5vw;
+  font-size: 1.6vw;
+}
